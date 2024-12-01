@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block title %}About this project{% endblock %}
+{% block content %}
+    <p>
+        This project demonstrates the integration of Flask and the Wikipedia API to create a dynamic web application.
+        Users can search for Wikipedia pages and view their titles, summaries, and links, all formatted neatly using Jinja
+        templates.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Search Wikipedia directly from the web app</li>
+        <li>Formatted results with page titles, summaries, and URLs</li>
+        <li>Template inheritance for consistent navigation and footer</li>
+    </ul>
+
+    <h2>Resources Used</h2>
+    <ul>
+        <li>Flask (Python web framework)</li>
+        <li>Jinja2 for templating</li>
+        <li>Wikipedia API for fetching data</li>
+    </ul>
+
+
+{% endblock %}
